@@ -5,8 +5,8 @@
 		"serverFarmResourceGroup": "[resourceGroup().id]",
 		"workerSize": "0",
 		"subscriptionId": "[subscription().subscriptionId]",
-		"sku": "Free",
-		"skuCode": "F1"
+		"sku": "Dynamic",
+		"skuCode": "Y1"
 	},
 	"parameters": {
 		"functionName": {
